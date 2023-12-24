@@ -1,0 +1,55 @@
+﻿@model tbl_UserReg
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<head>
+    <link href="~/CSS/Registration.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="Login">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6" id="loginForm">
+                    @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                    {
+                        <form>
+                            <h4>Login Form</h4>
+                            
+                            <div class="mb-3 mt-3">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-user"></i>
+                                    </span>
+                                    @Html.TextBoxFor(model => model.UserName, htmlAttributes: new { @class = "form-control", @placeholder="Enter UserName"})
+                                </div>
+                            </div>                            
+                            <div class="mb-3 mt-3">
+                                <div class="input-group">
+                                    <span class="input-group-text">
+                                        <i class="fa-solid fa-key"></i>
+                                    </span>
+                                    @Html.TextBoxFor(model => model.Password, htmlAttributes: new { @class = "form-control", @placeholder = "Enter Password" })
+                                </div>
+                            </div>
+                            <div class="mb-3 mt-3">
+                                <div class="col-md-2 mx-auto">
+                                    <input type="submit" value="Login" />
+                                </div>
+                            </div>
+                        </form>
+                    }
+                </div>
+                <div class="col-sm-6" id="loginImage">
+                    <img src="~/Images/login.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

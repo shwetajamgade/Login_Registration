@@ -1,0 +1,178 @@
+﻿body {
+    background-color:#9d9494;
+}
+
+/*Registration B.G*/
+#Registration{
+    background-color:#fff;
+    padding:40px 50px;
+    margin-top:20px;
+}
+    #Registration #registratioForm{
+        padding-top:0;
+        padding-left:50px;
+    }
+        #Registration #registratioForm h4{
+            margin:0;
+            margin-bottom:20px;
+            font-size:25px;
+            font-weight:400;
+            font-family:Algerian;
+            text-align:center
+        }
+        #Registration #registratioForm input[type="text"],
+        #Registration #registratioForm .input-group-text {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }
+        /*#Registration #registratioForm input[type="password"] {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }*/
+            #Registration #registrationnImage {
+                border-left: 1px solid #000;
+            }
+    #Registration #registratioForm .input-group-text {
+        padding:0;
+    }
+    #Registration #registratioForm input[type="submit"] {
+        background-color: #6841db;
+        color:#fff;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+        border:none;
+    }
+        #Registration #registratioForm input[type="submit"]:hover {            
+            background-color: #47079a;
+            color: #fff;
+        }
+
+/*Registration End*/
+
+/*Login Bg*/
+#Login {
+    background-color: #fff;
+    padding: 40px 50px;
+    margin-top: 20px;
+}
+
+    #Login #loginForm {
+        padding-top: 0;
+        padding-left: 50px;
+    }
+
+        #Login #loginForm h4 {
+            margin: 0;
+            margin-bottom: 20px;
+            font-size: 25px;
+            font-weight: 400;
+            font-family: Algerian;
+            text-align: center
+        }
+
+        #Login #loginForm input[type="text"],
+        #Login #loginForm .input-group-text {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }
+       /* #Login #loginForm input[type="password"] {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }*/
+
+            #Login #loginImage {
+                border-left: 1px solid #000;
+            }
+
+    #Login #loginForm .input-group-text {
+        padding: 0;
+    }
+
+    #Login #loginForm input[type="submit"] {
+        background-color: #6841db;
+        color: #fff;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+        border: none;
+    }
+
+        #Login #loginForm input[type="submit"]:hover {
+            background-color: #47079a;
+            color: #fff;
+        }
+/*Login End*/
+
+/*UserProfile Bg*/
+#userProfile {
+    background-color: #fff;
+    padding: 40px 50px;
+    margin-top: 20px;
+}
+
+    #userProfile #userEditForm {
+        padding-top: 0;
+        padding-left: 50px;
+    }
+
+        #userProfile #userEditForm h4 {
+            margin: 0;
+            margin-bottom: 20px;
+            font-size: 25px;
+            font-weight: 400;
+            font-family: Algerian;
+            text-align: center
+        }
+
+        #userProfile #userEditForm input[type="text"],
+        #userProfile #userEditForm .input-group-text {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }
+
+        /*#userProfile #userEditForm input[type="password"] {
+            background: none;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 1px solid #1cebe5;
+        }*/
+
+#Login #userImg {
+    border-left: 1px solid #000;
+}
+
+#userProfile #userEditForm .input-group-text {
+    padding: 0;
+}
+
+#userProfile #userEditForm input[type="submit"] {
+    background-color: #6841db;
+    color: #fff;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+
+    #userProfile #userEditForm input[type="submit"]:hover {
+        background-color: #47079a;
+        color: #fff;
+    }
+/*UserProfile End*/
